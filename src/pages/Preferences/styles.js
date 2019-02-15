@@ -36,9 +36,9 @@ export const Subtitle = styled.h3`
 export const Label = styled.label`
   display: flex;
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 18px;
   user-select: none;
   align-items: center;
 

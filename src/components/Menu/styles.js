@@ -5,10 +5,12 @@ export const Container = styled.div`
   width: 100%;
   height: 70px;
   display: flex;
+  flex-shrink: 0;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background: #e5556e;
+  margin-bottom: 15px;
 `;
 
 export const Itens = styled.div`

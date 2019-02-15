@@ -1,10 +1,38 @@
 import React from "react";
 
-import { Container } from "./styles";
+import Card from "../../components/Card";
+
+import { Container, Title, Section } from "./styles";
 
 const Dashboard = () => (
   <Container>
-    <h1>Dashboard</h1>
+    <Title>Inscrições</Title>
+    <Section>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </Section>
+    <Title>Próximos meetups</Title>
+    <Section>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </Section>
+    <Title>Recomendados</Title>
+    <Section>
+      <Card />
+      <Card />
+      <Card />
+    </Section>
   </Container>
 );
 
