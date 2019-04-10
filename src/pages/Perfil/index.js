@@ -11,7 +11,7 @@ import {
   Label
 } from "./styles";
 
-const Cadastrar = cadastrar => (
+const Perfil = cadastrar => (
   <Container>
     <Form onSubmit={cadastrar}>
       <Title>Nome</Title>
@@ -42,4 +42,4 @@ const Cadastrar = cadastrar => (
   </Container>
 );
 
-export default Cadastrar;
+export default Perfil;

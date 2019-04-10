@@ -7,10 +7,6 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   min-width: 350px;
-
-  img {
-    margin-bottom: 25px;
-  }
 `;
 
 export const Form = styled.form`
@@ -38,6 +34,32 @@ export const Input = styled.input`
   margin-bottom: 40px;
 `;
 
+export const SelectImage = styled.div`
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed #787878 2px;
+  margin-bottom: 30px;
+  
+  input {
+    opacity: 0.0;
+    width: 100%;
+    height:100%;
+  }
+  
+  p {
+    position: absolute;
+  }
+  
+  img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+  }
+`;
+
 export const Button = styled.button`
   background: #e5556e;
   color: #fff;
@@ -48,11 +70,6 @@ export const Button = styled.button`
   font-weight: bold;
   font-size: 16px;
   margin-top: 30px;
-`;
-
-export const Name = styled.span`
-  font-size: 20px;
-  margin-bottom: 40px;
 `;
 
 export const Label = styled.label`

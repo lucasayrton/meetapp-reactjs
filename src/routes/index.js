@@ -9,6 +9,7 @@ import Dashboard from "../pages/Dashboard";
 import Perfil from "../pages/Perfil";
 import Meetup from "../pages/Meetup";
 import Search from "../pages/Buscar";
+import NovoMeetup from "../pages/NovoMeetup";
 
 const Routes = () => (
   <Switch>
@@ -19,6 +20,7 @@ const Routes = () => (
     <Route path="/perfil" component={Perfil} />
     <Route path="/meetup/:id" component={Meetup} />
     <Route path="/buscar" component={Search} />
+    <Route path="/novomeetup" component={NovoMeetup} />
   </Switch>
 );
 
